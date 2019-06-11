@@ -1,0 +1,30 @@
+{
+  "name": "next-esx",
+  "version": "1.0.0",
+  "description": "Enable [`esx`](https://github.com/esxjs/esx) in your Next.js project",
+  "main": "index.js",
+  "bin": {
+    "next-esx": "./cmd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Mark Clements <david.mark.clements@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-esx-browser": "^1.0.5",
+    "babel-plugin-esx-ssr": "^1.0.0",
+    "esx-optimize": "^1.1.0",
+    "resolve-from": "^5.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/next-esx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/next-esx/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/next-esx#readme"
+}
