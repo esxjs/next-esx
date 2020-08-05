@@ -16,3 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Dependencies updated
+
+## [1.0.2] - 2020-08-05
+
+### Fixed 
+
+- wrong path resolution in `cmd.js`, solved by using `path.join` instead of `resolve-from`
+- wrong require in `index.js` for the `babel-plugin-esx-browser` plugin
